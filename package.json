@@ -1,0 +1,27 @@
+{
+  "name": "react-native-LWAmap",
+  "version": "0.0.1",
+  "author": "luwu",
+  "private": false,
+  "license": "Unlicense",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luwu1991/create-library-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luwu1991/create-library-test/issues"
+  },
+  "homepage": "https://github.com/luwu1991/create-library-test",
+  "keywords": [
+    "react-native",
+    "android",
+    "library"
+  ],
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.38.0"
+  }
+}
