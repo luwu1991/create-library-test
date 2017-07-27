@@ -3,7 +3,8 @@ import {
 	View,
 	NativeModules,
 	Platform,
-	DeviceEventEmitter
+	DeviceEventEmitter,
+	ViewPropTypes
 } from 'react-native';
 
 import React, {
@@ -13,7 +14,7 @@ import React, {
 
 export default class MapView extends Component {
 	static propTypes = {
-		...View.propTypes,
+		...ViewPropTypes,
 		showAllMarkers: PropTypes.bool,
 		zoom: PropTypes.number,
 		center: PropTypes.object,
